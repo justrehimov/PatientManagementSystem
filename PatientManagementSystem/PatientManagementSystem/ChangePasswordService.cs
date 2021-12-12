@@ -19,8 +19,8 @@ namespace PatientManagementSystem
         {
             Random random = new Random();
             confirmcode = random.Next(100000, 999999);
-            string from = "confirmmailadress@gmail.com";
-            string password = "cxwwfvqqoecsvtwu";
+            string from = "youremailadress@gmail.com";
+            string password = "youpassword";
 
             MailMessage message = new MailMessage();
             message.From = new MailAddress(from);
