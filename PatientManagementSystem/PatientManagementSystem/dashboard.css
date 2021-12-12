@@ -1,0 +1,127 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #00A4E7;
+}
+
+    .header ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+        .header ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.4rem;
+            padding: 0.6rem;
+            margin: 0.4rem;
+        }
+
+            .header ul li a:hover {
+                color: #006886;
+                background: white;
+                border-radius: 2px;
+            }
+
+.content {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./patients.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pateints{
+    width:30vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.appeals {
+    width: 23vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 1rem;
+    font-size: 1.7rem;
+    color: white;
+}
+.appeals2 {
+    width: 23vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    margin: 1rem;
+    color: white;
+}
+.appeals3 {
+    width: 23vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    margin: 1rem;
+    color:white;
+}
+    .appeals:nth-child(1) {
+        background-color: #10E57A;
+    }
+    .appeals:nth-child(2) {
+        background-color: #E5DE10;
+    }
+    .appeals:nth-child(3) {
+        background-color: #443CE4;
+    }
+    .appeals2:nth-child(1) {
+        background-color: #E43CB9;
+    }
+    .appeals2:nth-child(2) {
+        background-color: #1723E1;
+    }
+    .appeals2:nth-child(3) {
+        background-color: #F0F05C;
+    }
+    .appeals3:nth-child(1) {
+        background-color: #E72D2D;
+    }
+    .appeals3:nth-child(2) {
+        background-color: #11C43C;
+    }
+    .appeals3:nth-child(3) {
+        background-color: #F142DC;
+    }
+
+    .outputs{
+        display:flex;
+        justify-content:center;
+        width:70%;
+        height:2.5rem;
+        color:white;
+        background-color:transparent;
+        border:none;
+        outline:none;
+        padding:0.5rem;
+        font-size:1.5rem !important;
+        font-weight:bold;
+    }
